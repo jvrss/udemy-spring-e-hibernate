@@ -1,4 +1,4 @@
-# Udemy Spring e Hibernate
+# Udemy Spring e Hibernate using Goorm IDE
 
 Link Course:
 https://www.udemy.com/course/spring-hibernate-tutorial/
