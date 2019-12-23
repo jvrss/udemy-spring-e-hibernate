@@ -1,4 +1,4 @@
-# Udemy Spring e Hibernate
+# Udemy Spring e Hibernate using Goorm IDE
 
 
 ## Running the Application
