@@ -7,11 +7,11 @@ Prototype
 <pre>
 cd /workspace/udemy-spring-hiber/
 mvn clean compile assembly:single
-java -cp target/udemy-spring-hiber-1.0-jar-with-dependencies.jar com.study.MyApp
+java -cp target/udemy-spring-hiber-1.0-jar-with-dependencies.jar com.study.app.MyApp
 </pre>
 Spring Hello App
 <pre>
 cd /workspace/udemy-spring-hiber/
 mvn clean compile assembly:single
-java -cp target/udemy-spring-hiber-1.0-jar-with-dependencies.jar com.study.SpringHelloApp
+java -cp target/udemy-spring-hiber-1.0-jar-with-dependencies.jar com.study.app.SpringHelloApp
 </pre>

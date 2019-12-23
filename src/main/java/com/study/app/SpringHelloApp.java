@@ -1,6 +1,7 @@
-package com.study;
+package com.study.app;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.study.model.*;
 
 class SpringHelloApp {
 
@@ -14,6 +15,9 @@ class SpringHelloApp {
         
         // Call methods on bean 
         System.out.println(theCoach.getDailyWorkout());
+        
+        // Lets call our new method for fortunes
+        System.out.println(theCoach.getDailyFortune());
         
         // Close the context
         context.close();

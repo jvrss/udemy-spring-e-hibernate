@@ -1,4 +1,6 @@
-package com.study;
+package com.study.app;
+
+import com.study.model.*;
 
 class MyApp {
 
