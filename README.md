@@ -14,6 +14,7 @@ Spring Hello App
 cd /workspace/udemy-spring-hiber/
 mvn clean compile assembly:single
 java -cp target/udemy-spring-hiber-1.0-jar-with-dependencies.jar com.study.app.SpringHelloApp
+</pre>
 Setter Demo App
 <pre>
 cd /workspace/udemy-spring-hiber/
