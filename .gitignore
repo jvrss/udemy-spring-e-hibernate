@@ -1,3 +1,5 @@
 goorm.manifest
 target/
+.idea/
+*.iml
 .temp
