@@ -42,5 +42,4 @@ public class CricketCoach implements Coach {
         // Use my fortune service to get my fortune
         return fortuneService.getFortune();
     }
-
 }
