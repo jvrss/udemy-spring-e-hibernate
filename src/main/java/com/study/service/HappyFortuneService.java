@@ -1,10 +1,19 @@
 package com.study.service;
 
+import java.util.Random;
+
+import org.springframework.beans.factory.annotation.Value;
+
+import lombok.Setter;
+
 class HappyFortuneService implements FortuneService {
+	
+	@Value("${foo.fortunes}")
+	@Setter private String[] fortunes;
     
     @Override
     public String getFortune(){
-        return "Today is your lucky day!";
+        return fortunes[new Random().nextInt(fortunes.length)];
     }
     
 }

@@ -14,6 +14,8 @@
     <!-- Define the dependency -->
     <bean id="myFortuneService"
           class="com.study.service.HappyFortuneService">
+          
+          <property name="fortunes" value="${foo.fortunes}" />
     </bean>
     <bean id="myCoach"
         class="com.study.model.BaseballCoach">  
@@ -28,9 +30,10 @@
         <!-- Set up the setter injection -->
         <property name="fortuneService" ref="myFortuneService"/>
         
-        <!-- Inject literal values -->
+        <!-- Inject properties values -->
         <property name="emailAddress" value="${foo.email}" />
         <property name="team" value="${foo.team}" />
+        
     </bean>
 
 </beans>
