@@ -10,14 +10,24 @@ public class PersonalCoach implements Coach {
 	
 	private FortuneService fortuneService;
 	
+	/*
 	@Autowired
 	public PersonalCoach(FortuneService fortuneService) {
 		super();
 		this.fortuneService = fortuneService;
 	}
+	*/
+	
+	
 
 	public String getDailyWorkout() {
 		return "Live";
+	}
+
+	@Autowired
+	public void doSomeCrazyStuff(FortuneService fortuneService) {
+		System.out.println(">> PersonalCoach: Inside doSomeCrazyStuff() method");
+		this.fortuneService = fortuneService;
 	}
 
 	public String getDailyFortune() {
