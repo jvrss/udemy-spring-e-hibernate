@@ -19,6 +19,9 @@ public class PropertiesDemoApp {
 		System.out.println(theCoach.getEmail());
 		System.out.println(theCoach.getTeam());
 		
+		// Call method to get the daily fortune
+		System.out.println(theCoach.getDailyFortune());
+		
 		// Close the context
 		context.close();
 		

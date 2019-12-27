@@ -19,7 +19,7 @@ public class SwimCoach implements Coach {
 	@Getter private String team;
 	
 	@Autowired
-	@Qualifier("randomFortuneService")
+	@Qualifier("databaseFortuneService")
 	FortuneService fortuneService;
 
 	public String getDailyWorkout() {
