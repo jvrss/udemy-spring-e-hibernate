@@ -1,3 +1,9 @@
 goorm.manifest
 target/
+.idea/
+.settings/
+.classpath
+*.iml
 .temp
+.project
+bin/
