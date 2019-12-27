@@ -18,3 +18,6 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/bean-scope-and-lifec
 
 ### IOC - Inversion of Control
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/ioc-annotation
+
+### DI - Dependency Injection
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/di-annotation
