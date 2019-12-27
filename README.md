@@ -13,3 +13,8 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/dependency-injection
 
 ### Bean Scopes and Lifecicle
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/bean-scope-and-lifecicle
+
+## Annotation Configuration
+
+### IOC - Inversion of Control
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/ioc-annotation
