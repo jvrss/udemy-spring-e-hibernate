@@ -10,3 +10,6 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/ioc-coach
 
 ### DI - Dependency Injection
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/dependency-injection
+
+### Bean Scopes and Lifecicle
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/bean-scope-and-lifecicle
