@@ -8,6 +8,7 @@ import com.study.spring_demo_annotations.service.FortuneService;
 @Component
 public class PersonalCoach implements Coach {
 	
+	@Autowired
 	private FortuneService fortuneService;
 	
 	/*
@@ -24,11 +25,13 @@ public class PersonalCoach implements Coach {
 		return "Live";
 	}
 
+	/*
 	@Autowired
 	public void doSomeCrazyStuff(FortuneService fortuneService) {
 		System.out.println(">> PersonalCoach: Inside doSomeCrazyStuff() method");
 		this.fortuneService = fortuneService;
 	}
+	*/
 
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
