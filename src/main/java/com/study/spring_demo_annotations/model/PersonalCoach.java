@@ -1,6 +1,7 @@
 package com.study.spring_demo_annotations.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.study.spring_demo_annotations.service.FortuneService;
@@ -9,6 +10,7 @@ import com.study.spring_demo_annotations.service.FortuneService;
 public class PersonalCoach implements Coach {
 	
 	@Autowired
+	@Qualifier("happyFortuneService")
 	private FortuneService fortuneService;
 	
 	/*
@@ -19,8 +21,6 @@ public class PersonalCoach implements Coach {
 	}
 	*/
 	
-	
-
 	public String getDailyWorkout() {
 		return "Live";
 	}

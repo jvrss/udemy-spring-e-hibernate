@@ -1,6 +1,7 @@
 package com.study.spring_demo_annotations.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.study.spring_demo_annotations.service.FortuneService;
@@ -24,6 +25,7 @@ public class TennisCoach implements Coach {
 	
 	// Define a setter method
 	@Autowired 
+	@Qualifier("randomFortuneService")
 	public void setFortuneService(FortuneService fortuneService) {
 		System.out.println(">> TennisCoach: Inside setFortuneService() method");
 		this.fortuneService = fortuneService;
