@@ -18,13 +18,16 @@ public class SwimCoach implements Coach {
 	@Value("${foo.team}")
 	@Getter private String team;
 	
-	@Autowired
-	@Qualifier("databaseFortuneService")
 	FortuneService fortuneService;
 
+	public SwimCoach(FortuneService fortuneService) {
+		super();
+		this.fortuneService = fortuneService;
+	}
+	
 	public String getDailyWorkout() {
 		// TODO Auto-generated method stub
-		return "Practice";
+		return "Swin 1000 meters as a warm up";
 	}
 
 	public String getDailyFortune() {
