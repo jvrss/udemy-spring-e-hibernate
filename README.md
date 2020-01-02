@@ -21,3 +21,6 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/ioc-annotation
 
 ### DI - Dependency Injection
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/di-annotation
+
+## No XML
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/no-xml
