@@ -29,3 +29,7 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/no-xml
 
 ## MVC
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc
+
+## Hibernate
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
+
