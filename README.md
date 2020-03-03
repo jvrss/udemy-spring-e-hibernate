@@ -33,3 +33,6 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc
 ## Hibernate
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
 
+## Spring boot
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-boot
+
