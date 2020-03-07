@@ -31,7 +31,12 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/no-xml
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc
 
 ## Hibernate
+
+### CRUD
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
+
+### One to One
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-uni
 
 ## Spring boot
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-boot
