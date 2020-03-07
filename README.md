@@ -32,10 +32,10 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc
 
 ## Hibernate
 
-### CRUD
+#### CRUD
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
 
-### One to One
+#### One to One
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-uni
 
 ## Spring boot
