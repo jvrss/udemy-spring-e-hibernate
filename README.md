@@ -41,6 +41,6 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one
 ## Spring Security
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
 
-## Spring boot
+## Spring Boot
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-boot
 
