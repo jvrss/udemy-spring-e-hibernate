@@ -38,6 +38,9 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
 #### One to One
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-uni
 
+## Spring Security
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
+
 ## Spring boot
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-boot
 
