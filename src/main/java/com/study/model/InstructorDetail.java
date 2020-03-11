@@ -32,6 +32,13 @@ public class InstructorDetail {
     @Column(name = "hobby")
     private String hobby;
 
+    // Add new field for instructor (also add getter/setters)
+
+    // Add @OneToOne annotation
+
+    @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
+    private Instructor instructor;
+
     public InstructorDetail() {
     }
 
