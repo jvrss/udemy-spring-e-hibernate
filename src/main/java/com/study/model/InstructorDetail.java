@@ -47,5 +47,12 @@ public class InstructorDetail {
         this.hobby = hobby;
     }
 
-
+    @Override
+    public String toString() {
+        return "InstructorDetail{" +
+                "id=" + id +
+                ", youtubeChannel='" + youtubeChannel + '\'' +
+                ", hobby='" + hobby + '\'' +
+                '}';
+    }
 }
