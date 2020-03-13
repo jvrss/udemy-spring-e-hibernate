@@ -35,8 +35,11 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc
 #### CRUD
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate
 
-#### One to One
+#### One to One - Unidirectional
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-uni
+
+#### One to One - Bidirectional
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-bi
 
 ## Spring Security
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
