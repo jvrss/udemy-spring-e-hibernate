@@ -35,7 +35,11 @@ public class GetInstructorDetailDemo {
             // Commit transaction
             session.getTransaction().commit();
             System.out.println("Done!");
+        } catch (Exception ex){
+            ex.printStackTrace();
         } finally {
+            // Handle connection leak issue
+            session.close();
             factory.close();
         }
 
