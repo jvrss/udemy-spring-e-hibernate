@@ -41,6 +41,9 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one
 #### One to One - Bidirectional
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one-bi
 
+#### One to Many - Bidirectional
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-many-bi
+
 ## Spring Security
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
 
