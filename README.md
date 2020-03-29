@@ -44,6 +44,9 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-one
 #### One to Many - Bidirectional
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-many-bi
 
+#### Eager VS Lazy Loading
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-eager-vs-lazy-demo
+
 ## Spring Security
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
 
