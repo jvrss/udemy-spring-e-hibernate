@@ -3,6 +3,8 @@ package com.study.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "course")
@@ -32,11 +34,24 @@ public class Course {
     @JoinColumn(name = "instructor_id")
     private Instructor instructor;
 
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "course_id")
+    private List<Review> reviews;
+
     public Course() {
     }
 
     public Course(String title) {
         this.title = title;
+    }
+
+    // add a convenience method
+    public void addReview(Review theReview){
+        if(reviews == null){
+            reviews = new ArrayList<Review>();
+        }
+
+        reviews.add(theReview);
     }
 
     @Override
