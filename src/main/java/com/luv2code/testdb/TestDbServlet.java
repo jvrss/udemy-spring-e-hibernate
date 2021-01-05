@@ -1,4 +1,4 @@
-package com.study;
+package com.luv2code.testdb;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-@WebServlet("/")
+@WebServlet("/TestDbServlet")
 public class TestDbServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
