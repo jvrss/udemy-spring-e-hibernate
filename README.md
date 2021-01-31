@@ -47,6 +47,9 @@ https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-one-to-man
 #### Eager VS Lazy Loading
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/hibernate-eager-vs-lazy-demo
 
+## Web App
+https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-mvc-crud
+
 ## Spring Security
 https://github.com/SoldierJVX/udemy-spring-e-hibernate/tree/spring-security
 
