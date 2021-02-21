@@ -10,4 +10,8 @@ public class Student {
     private String lastName;
     private boolean active;
 
+    private Address address;
+
+    private String[] languages;
+
 }
